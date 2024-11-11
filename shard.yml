@@ -1,0 +1,17 @@
+name: new_app
+version: 0.1.0
+
+authors:
+  - Billy.Zheng <vil963@gmail.com>
+
+targets:
+  new_app:
+    main: src/new_app.cr
+
+dependencies:
+  polydocopt:
+    github: ralsina/polydocopt
+
+crystal: '>= 1.14.0'
+
+license: MIT
